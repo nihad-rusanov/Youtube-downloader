@@ -25,6 +25,6 @@ button = Button(text="Download", width=15, height=1, command=download_video)
 
 label.pack(pady=30)
 entry.pack(pady=10)
-button.pack(padx=10)
+button.pack(pady=10)
 
 tk.mainloop()
